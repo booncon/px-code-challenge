@@ -1,0 +1,16 @@
+FRONT END TASK
+
+User Flow:
+User should enter their email address and password.
+User should see error messages when entering invalid email or password.
+User should see the content loaded from “content.txt” (Text file in this folder.)
+
+Transitions:
+Once user clicks “sign in”, button spinner should be visible.
+Error messages should pop when they become visible.
+When the user signs in with no validation errors the sign up form should disappear and the content should fade in. 
+
+Validations:
+User should enter a valid email address. (test doesn’t need to be 100% accurate)
+User should enter a valid password. (min 8 characters)
+Password should not be blank.
