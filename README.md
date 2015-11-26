@@ -9,7 +9,7 @@ Use the PDF's as a guideline to how things should look, feel free to pick your o
 ### User Flow:
 User should enter their email address and password.
 User should see error messages when entering invalid email or password.
-User should see the content loaded from “ajax.json
+User should see the content loaded from `ajax.json` in a nicely formatted way
 
 ### Transitions:
 Once user clicks “sign in”, button spinner should be visible.
