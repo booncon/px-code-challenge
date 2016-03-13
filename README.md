@@ -7,7 +7,7 @@ Feel free to remove anything you deem unnecessary from this boilerplate :)
 
 # FEATURES
 The app simulates a very small shop.
-The columns need to be implemented with (flexbox)[http://caniuse.com/#search=flexbox].
+The columns need to be implemented with [flexbox](http://caniuse.com/#search=flexbox).
 You should start by loading the instructions from `/data/instructions.json` into the first column.
 Then when the "Fetch Products" button is clicked you should fetch the products from `/data/products.json` and display the products as shown in the pdf.
 
