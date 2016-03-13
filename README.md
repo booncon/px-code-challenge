@@ -16,8 +16,8 @@ When there is at least one product in the "Cart" it should become possible to cl
 ## Notes:
 - Each product can only be added to the cart once
 - The SVG spinner should be visibly spinning when fetching the products
-- Notice the change of the column order on small screens!
 - Make sure to disable/ enable buttons when needed
+- Notice the change of the column order on small screens!
 
 # BONUS
 - Nice transitions/ animations :)
@@ -25,7 +25,7 @@ When there is at least one product in the "Cart" it should become possible to cl
 - Use some nicer modal instead of pure js alert
 
 
-This challenge should not take more than2 hours of your time.
+This challenge should not take more than 2 hours of your time.
 Wherever possible please use CSS animations/ transitions.
 
 Good luck!
