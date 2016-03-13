@@ -1,27 +1,31 @@
-# PIXELS Code Challenge
+# PIXELS Code Challenge v2.0
 Challenge for job applicants
 
-##FRONT END TASK
-Please use Bootstrap & jQuery to solve this challenge. No additional plugins are allowed.
-Feel free to use a CSS preprocessor like LESS or SASS.
-Use the PDF's as a guideline to how things should look, feel free to pick your own style.
+## TASK
+Please use this boilerplate to implement the app outlined in `MiniShop.pdf`
+Feel free to remove anything you deem unnecessary from this boilerplate :)
 
-### User Flow:
-User should enter their email address and password.
-User should see error messages when entering invalid email or password.
-User should see the content loaded from `ajax.json` in a nicely formatted way
+# FEATURES
+The app simulates a very small shop.
+The columns need to be implemented with (flexbox)[http://caniuse.com/#search=flexbox].
+You should start by loading the instructions from `/data/instructions.json` into the first column.
+Then when the "Fetch Products" button is clicked you should fetch the products from `/data/products.json` and display the products as shown in the pdf.
 
-### Transitions:
-Once user clicks “sign in”, button spinner should be visible.
-Error messages should pop when they become visible.
-When the user signs in with no validation errors the sign up form should disappear and the content should fade in.
+When there is at least one product in the "Cart" it should become possible to click the "Place Order" button. This triggers an alert with the contents of the cart.
 
-### Validations:
-User should enter a valid email address. (test doesn’t need to be 100% accurate)
-User should enter a valid password. (min 8 characters)
-Password should not be blank.
+## Notes:
+- Each product can only be added to the cart once
+- The SVG spinner should be visibly spinning when fetching the products
+- Notice the change of the column order on small screens!
+- Make sure to disable/ enable buttons when needed
 
-This challenge should not take more than 1 to 2 hours of your time.
+# BONUS
+- Nice transitions/ animations :)
+- Design improvements
+- Use some nicer modal instead of pure js alert
+
+
+This challenge should not take more than2 hours of your time.
 Wherever possible please use CSS animations/ transitions.
 
 Good luck!
